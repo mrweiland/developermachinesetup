@@ -41,3 +41,4 @@ brew install kubectl
 brew cask install minikube
 
 npm install -g ionic cordova
+npm install ios-sim -g
