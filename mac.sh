@@ -14,6 +14,7 @@ EOD
 sudo xcodebuild -license accept
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
+brew install node
 brew install caskroom/cask/brew-cask
 brew install cask
 brew cask install google-chrome
@@ -38,3 +39,5 @@ brew cask install firefox
 brew cask install docker
 brew install kubectl
 brew cask install minikube
+
+npm install -g ionic cordova
