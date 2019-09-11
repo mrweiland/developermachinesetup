@@ -1,5 +1,6 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ./dotnet-install.sh --channel LTS
+xcode-select --install
 brew install cask
 brew cask install google-chrome
 brew install htop
