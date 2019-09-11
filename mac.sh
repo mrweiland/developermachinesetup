@@ -24,7 +24,7 @@ brew install imagemagisk
 brew install zsh
 brew install node mongodb 
 brew cask install google-drive
-brew cask install iterm2
+brew cask install hyper
 brew cask install skype
 brew cask install spotify
 brew cask install the-unarchiver
