@@ -2,6 +2,8 @@
 ./dotnet-install.sh --channel LTS
 xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+brew install caskroom/cask/brew-cask
 brew install cask
 brew cask install google-chrome
 brew install htop
