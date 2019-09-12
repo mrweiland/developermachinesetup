@@ -39,6 +39,12 @@ brew cask install firefox
 brew cask install docker
 brew install kubectl
 brew cask install minikube
+brew cask install postman
+
+brew cask install textmate
+
+
 
 npm install -g ionic cordova
 npm install ios-sim -g
+npm install electron -g
