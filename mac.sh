@@ -25,7 +25,7 @@ brew install geoip
 brew install imagemagisk
 brew install zsh
 brew install node mongodb 
-brew cask install google-drive
+brew cask install google-backup-and-sync
 brew cask install hyper
 brew cask install skype
 brew cask install spotify
@@ -40,8 +40,10 @@ brew cask install docker
 brew install kubectl
 brew cask install minikube
 brew cask install postman
-
+brew cask install insomnia
 brew cask install textmate
+
+
 
 
 

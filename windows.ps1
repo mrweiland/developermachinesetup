@@ -20,4 +20,3 @@ choco install sysinternals
 choco install adobereader
 choco install docker-desktop
 choco install kubernetes-cli
-choco install boot2docker
