@@ -12,10 +12,11 @@ choco install googlechrome
 choco install firefox
 choco install 7zip.install
 choco install nodejs-lts
+choco install git
 choco install vscode
 choco install poshgit
 choco install notepadplusplus.install
-choco install git
+
 choco install sysinternals
 choco install adobereader
 choco install docker-desktop

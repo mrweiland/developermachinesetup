@@ -42,10 +42,17 @@ brew cask install minikube
 brew cask install postman
 brew cask install insomnia
 brew cask install textmate
+brew cask install homebrew/cask-versions/adoptopenjdk8
+# brew install jenkins
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+brew cask install adoptopenjdk11
+brew install ant
+brew install maven
+brew install gradle
+brew cask install android-sdk
+brew cask install android-ndk
 
-
-
-
+android update sdk --no-ui
 
 npm install -g ionic cordova
 npm install ios-sim -g
