@@ -28,6 +28,10 @@ choco install androidstudio
 choco install sql-server-management-studio
 choco install notepadplusplus.install
 
+scoop install gradle
+scoop install helm
+scoop install packer
+
 choco install sysinternals
 choco install adobereader
 choco install docker-desktop
