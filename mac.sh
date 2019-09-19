@@ -20,7 +20,10 @@ brew install cask
 brew cask install google-chrome
 brew install htop
 brew install nmap
+brew cask install powershell
+pwsh
 brew install python3
+
 mkdir ~/.virtualenvs
 python3 -m venv ~/.virtualenvs/myvenv
 source ~/.virtualenvs/myvenv/bin/activate
@@ -59,6 +62,6 @@ brew cask install android-ndk
 
 android update sdk --no-ui
 
-npm install -g ionic cordova
-npm install ios-sim -g
-npm install electron -g
+pwsh & ".\npm.ps1"
+& ".\npm-mac.ps1"
+
