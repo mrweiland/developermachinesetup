@@ -20,6 +20,11 @@ brew install cask
 brew cask install google-chrome
 brew install htop
 brew install nmap
+brew install python3
+mkdir ~/.virtualenvs
+python3 -m venv ~/.virtualenvs/myvenv
+source ~/.virtualenvs/myvenv/bin/activate
+python --version
 brew install links
 brew install geoip
 brew install imagemagisk
