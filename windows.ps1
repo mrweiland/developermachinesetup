@@ -5,7 +5,7 @@ Invoke-WebRequest 'https://dot.net/v1/dotnet-install.ps1' -OutFile 'dotnet-insta
 RefreshEnv.cmd
 
 choco feature enable -n=allowGlobalConfirmation
-
+choco install cmder
 choco install googlechrome
 choco install firefox
 choco install 7zip.install
