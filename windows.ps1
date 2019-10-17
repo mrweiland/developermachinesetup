@@ -3,7 +3,7 @@ Invoke-WebRequest 'https://dot.net/v1/dotnet-install.ps1' -OutFile 'dotnet-insta
 ./dotnet-install.ps1 -InstallDir '~/.dotnet' -Channel LTS;
 
 RefreshEnv.cmd
-
+choco install jre8
 choco feature enable -n=allowGlobalConfirmation
 choco install cmder
 choco install googlechrome
