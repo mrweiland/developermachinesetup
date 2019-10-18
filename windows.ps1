@@ -5,6 +5,7 @@ Invoke-WebRequest 'https://dot.net/v1/dotnet-install.ps1' -OutFile 'dotnet-insta
 RefreshEnv.cmd
 choco install jre8
  choco install microsoft-teams
+choco install azure-data-studio
   choco install slack
 choco feature enable -n=allowGlobalConfirmation
 choco install cmder
