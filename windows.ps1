@@ -8,6 +8,7 @@ choco install azure-data-studio
 choco install slack
 choco feature enable -n=allowGlobalConfirmation
 choco install cmder
+choco install microsoft-edge
 choco install googlechrome
 choco install firefox
 choco install 7zip.install
