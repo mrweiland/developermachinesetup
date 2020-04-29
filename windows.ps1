@@ -3,15 +3,19 @@ Invoke-WebRequest 'https://dot.net/v1/dotnet-install.ps1' -OutFile 'dotnet-insta
 ./dotnet-install.ps1 -InstallDir '~/.dotnet' -Channel LTS;
 
 RefreshEnv.cmd
-choco install microsoft-teams
-choco install azure-data-studio
-choco install slack
 choco feature enable -n=allowGlobalConfirmation
-choco install cmder
+choco install discord
 choco install microsoft-edge
-choco install googlechrome
-choco install firefox
+choco install microsoft-teams
 choco install 7zip.install
+#choco install azure-data-studio
+choco install slack
+
+choco install cmder
+
+#choco install googlechrome
+#choco install firefox
+
 choco install nodejs-lts
 choco install git
 choco install openjdk8
