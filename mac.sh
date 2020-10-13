@@ -20,5 +20,7 @@ brew cask install visual-studio-code
 brew cask install docker
 brew cask install postman
 brew cask install cleanmymac
-mkdir -p ~/git/flutter 
 
+git clone https://github.com/flutter/flutter.git
+export PATH="$PATH:`pwd`/flutter/bin"
+flutter doctor
