@@ -18,6 +18,6 @@ brew cask install the-unarchiver
 brew cask install visual-studio-code
 brew cask install docker
 brew cask install postman
-
+brew cask install cleanmymac
 mkdir -p ~/git/flutter 
 
