@@ -30,6 +30,5 @@ brew cask install visual-studio-code
 brew cask install docker
 brew cask install postman
 
-pwsh & ".\npm.ps1"
-& ".\npm-mac.ps1"
+mkdir -p ~/git/flutter 
 
