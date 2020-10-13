@@ -5,6 +5,7 @@ sudo xcodebuild -license accept
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 brew install node
+brew cask install dashlane
 brew install caskroom/cask/brew-cask
 brew install cask
 brew cask install microsoft-edge
