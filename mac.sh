@@ -1,13 +1,5 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ./dotnet-install.sh --channel LTS
-
-git clone https://github.com/flutter/flutter.git
-export PATH="$PATH:`pwd`/flutter/bin"
-flutter doctor
-flutter channel beta
-flutter upgrade
-flutter config --enable-web
-
 brew doctor
 brew install node
 brew cask install dashlane
@@ -25,5 +17,18 @@ brew cask install docker
 brew cask install postman
 brew cask install cleanmymac
 brew cask install microsoft-outlook
+
+
+
+
+git clone https://github.com/flutter/flutter.git
+export PATH="$PATH:`pwd`/flutter/bin"
+flutter doctor
+flutter channel beta
+flutter upgrade
+flutter config --enable-web
+
+
+flutter doctor --android-licenses 
 
 
