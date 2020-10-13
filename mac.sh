@@ -6,8 +6,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 brew install node
 brew cask install dashlane
-brew install caskroom/cask/brew-cask
-brew install cask
+
 brew cask install microsoft-edge
 brew cask install google-chrome
 brew cask install powershell
