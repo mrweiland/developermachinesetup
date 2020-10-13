@@ -15,7 +15,7 @@ brew cask install dashlane
 brew cask install microsoft-edge
 brew cask install google-chrome
 brew cask install powershell
-pwsh
+
 brew cask install android-studio
 brew cask install hyper
 brew cask install spotify
