@@ -24,5 +24,6 @@ brew cask install visual-studio-code
 brew cask install docker
 brew cask install postman
 brew cask install cleanmymac
+brew cask install microsoft-outlook
 
 
