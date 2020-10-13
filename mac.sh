@@ -1,6 +1,9 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ./dotnet-install.sh --channel LTS
 
+git clone https://github.com/flutter/flutter.git
+export PATH="$PATH:`pwd`/flutter/bin"
+flutter doctor
 
 brew doctor
 brew install node
@@ -19,6 +22,4 @@ brew cask install docker
 brew cask install postman
 brew cask install cleanmymac
 
-git clone https://github.com/flutter/flutter.git
-export PATH="$PATH:`pwd`/flutter/bin"
-flutter doctor
+
