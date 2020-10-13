@@ -4,6 +4,9 @@
 git clone https://github.com/flutter/flutter.git
 export PATH="$PATH:`pwd`/flutter/bin"
 flutter doctor
+flutter channel beta
+flutter upgrade
+flutter config --enable-web
 
 brew doctor
 brew install node
